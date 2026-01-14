@@ -1,0 +1,29 @@
+.example-container {
+  width: auto;
+  height: 100%;
+
+  border: 1px solid #555;
+  /* The background property is added to clearly distinguish the borders between drawer and main
+     content */
+  background: #eee;
+}
+
+.active {
+  background: #fff;
+  color: white !important;
+  border-radius: 6px;
+}
+
+.active mat-icon {
+  color: black;
+}
+
+// :host {
+//       display: block;
+//       height:500px;
+//       width:100vh;
+//     }
+//       mgl-map {
+//         height: 100%;
+//         width: 100%;
+//       }
